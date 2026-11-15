@@ -1,6 +1,6 @@
 (function () {
   var C = window.MIAO_CONFIG || {};
-  var yt = C.YOUTUBE_CHANNEL_URL || "https://www.youtube.com/results?search_query=Miao+Sando+AI%E7%8C%AB";
+  var yt = C.YOUTUBE_CHANNEL_URL || "https://www.youtube.com/results?search_query=Miao+Sando+%E5%96%B5%E4%B8%89%E5%93%86";
   var sub = C.YOUTUBE_CHANNEL_URL ? C.YOUTUBE_CHANNEL_URL.replace(/\/$/, "") + "?sub_confirmation=1" : yt;
   document.querySelectorAll("[data-yt]").forEach(function (a) { a.href = sub; a.target = "_blank"; a.rel = "noopener"; });
   // Episode embeds
@@ -19,8 +19,8 @@
     var msg = document.getElementById("signup-msg");
     if (C.CONTACT_EMAIL) {
       var em = form.querySelector("input").value;
-      location.href = "mailto:" + C.CONTACT_EMAIL + "?subject=" + encodeURIComponent("订阅三朵的猫生日记 / Subscribe") +
-        "&body=" + encodeURIComponent("请把我加入三朵的更新列表 Please add me: " + em);
+      location.href = "mailto:" + C.CONTACT_EMAIL + "?subject=" + encodeURIComponent("订阅喵三哆的猫生日记 / Subscribe") +
+        "&body=" + encodeURIComponent("请把我加入喵三哆的更新列表 Please add me: " + em);
     } else {
       msg.hidden = false;
     }
