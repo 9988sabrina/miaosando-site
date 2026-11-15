@@ -250,3 +250,4 @@ dialog#lb img{border-radius:20px;max-height:88vh}
 .story-img .polaroid figcaption{position:absolute;left:0;right:0;bottom:8px;background:none;backdrop-filter:none;color:var(--ink-2);text-align:center;font-family:var(--serif);font-size:13px;padding:0}
 @media (max-width:1080px){.look-grid{grid-template-columns:repeat(2,1fr)}}
 @media (max-width:600px){.polaroid{width:150px;right:-8px;bottom:-36px;padding:6px 6px 26px}.story-img .polaroid figcaption{font-size:11px;bottom:5px}.story-in{gap:64px}}
+.ep-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:6px}
