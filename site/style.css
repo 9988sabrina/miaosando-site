@@ -144,7 +144,7 @@ html.en-only .hero h1 em{font-style:italic}
 /* episodes */
 .ep-feature{display:grid;grid-template-columns:340px 1fr;gap:56px;background:var(--paper);border-radius:40px;padding:28px;box-shadow:var(--sh-2);align-items:center}
 .ep-media{position:relative;border-radius:28px;overflow:hidden;aspect-ratio:9/16;background:#111}
-.ep-media video,.ep-media iframe{width:100%;height:100%;object-fit:cover;border:0}
+.ep-media video,.ep-media iframe,.ep-media img{width:100%;height:100%;object-fit:cover;border:0;max-width:none}
 .badge{position:absolute;left:14px;top:14px;background:rgba(255,255,255,.92);color:var(--navy);font-size:12.5px;font-weight:700;padding:6px 12px;border-radius:999px;letter-spacing:.04em}
 .ep-media.live .badge{display:none}
 .ep-body{padding-right:24px}
@@ -296,3 +296,51 @@ html.en-only .ep-quote p{display:none}
 @media (max-width:600px){.mv-card::after{background:linear-gradient(90deg,rgba(20,33,66,.9) 0%,rgba(20,33,66,.6) 60%,rgba(20,33,66,.25) 100%)}.mv-card img{object-position:70% 25%}}
 html.en-only .b-en{order:-1;background:var(--navy);color:#fff;box-shadow:0 10px 24px -12px rgba(29,47,87,.7)}
 html.en-only .b-cn{background:transparent;color:var(--navy);box-shadow:inset 0 0 0 1.5px rgba(29,47,87,.25)}
+
+/* ===== English landing pages ===== */
+.lp-hero{position:relative;padding:48px 0 72px;overflow:clip}
+.lp-hero-in{display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:center}
+.lp-copy h1{font-family:var(--disp);font-weight:600;font-size:clamp(36px,4.6vw,64px);color:var(--navy);letter-spacing:-.02em;line-height:1.12}
+.lp-blurb{font-size:18px;color:var(--ink-2);max-width:38em;margin:20px 0 0;line-height:1.75}
+.lp-copy .catch{margin:28px 0 0}
+.lp-copy .cta{margin-top:32px}
+.lp-art{margin:0;border-radius:32px;overflow:hidden;box-shadow:var(--sh-2);background:var(--navy);aspect-ratio:2/3;max-width:460px;justify-self:end;width:100%}
+.lp-art img{width:100%;height:100%;object-fit:cover;object-position:center top}
+.lp-index-hero{text-align:center;padding:72px 0 24px}
+.lp-index-hero .lp-blurb{margin-inline:auto}
+.lp-index-hero .cta{justify-content:center}
+.lp-index-hero h1{font-family:var(--disp);font-weight:600;font-size:clamp(36px,5vw,68px);color:var(--navy);letter-spacing:-.02em;max-width:16ch;margin-inline:auto;line-height:1.12}
+.lp-feat-list{grid-template-columns:repeat(3,1fr)}
+.lp-more-list{grid-template-columns:repeat(2,1fr);max-width:720px;margin:0 auto}
+.lp-watch-in{text-align:center}
+.short-frame{display:flex;justify-content:center}
+.short-embed{position:relative;width:min(360px,86vw);aspect-ratio:9/16;border-radius:28px;overflow:hidden;background:#0b1224 center/cover no-repeat;box-shadow:var(--sh-2)}
+.short-embed iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.lp-watch-cta{display:flex;flex-direction:column;align-items:center;gap:14px;margin-top:32px}
+.lp-alt{margin:0;font-size:14px;color:var(--muted)}
+.lp-alt a{color:var(--navy);text-decoration:underline;text-underline-offset:3px}
+.lp-index-link{text-align:center;margin:36px 0 0;font-family:var(--serif);font-size:17px}
+.lp-index-link a{color:var(--navy);border-bottom:1.5px solid var(--gold);padding-bottom:2px}
+.lp-frames{max-width:920px;margin:0 auto}
+.lp-stills .frames a{border-radius:16px}
+.ep-en-hub{text-align:center;margin:36px 0 0;font-family:var(--serif);font-size:16.5px}
+.ep-en-hub a{color:var(--navy);border-bottom:1.5px solid var(--gold);padding-bottom:2px}
+a.lang{appearance:none;background:rgba(255,255,255,.7);border:0;border-radius:999px;padding:6px 12px;font:500 13px var(--sans);color:var(--navy);cursor:pointer;box-shadow:inset 0 0 0 1px rgba(27,42,74,.1);text-decoration:none}
+.links a.is-on{background:#fff;color:var(--navy);font-weight:600}
+@media (max-width:920px){
+  .lp-hero-in{grid-template-columns:1fr;gap:36px}
+  .lp-art{order:-1;justify-self:center;width:min(360px,82%)}
+  .lp-copy{text-align:center}
+  .lp-copy .catch{border-left:0;padding:0}
+  .lp-copy .cta,.lp-copy .lp-blurb{margin-inline:auto}
+  .lp-copy .cta{justify-content:center}
+}
+@media (max-width:760px){
+  .lp-feat-list,.lp-more-list{grid-template-columns:1fr 1fr}
+}
+@media (max-width:600px){
+  .lp-feat-list,.lp-more-list{grid-template-columns:1fr}
+  .lp-hero{padding:28px 0 48px}
+}
+
+.sched-note{text-align:center;font-size:18px;color:var(--ink-2);margin:8px 0 0;font-family:var(--serif)}
