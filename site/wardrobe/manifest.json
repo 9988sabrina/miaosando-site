@@ -1,0 +1,36 @@
+[
+  {
+    "id": "20261126-swap-plum-frog",
+    "date": "2026-11-26",
+    "name_cn": "反色小袄",
+    "name_en": "Plum Frog-Button Swap",
+    "cat_outfit": "象牙白缎面唐装迷你小袄，前襟敞开，藏青滚边，肩上一颗藏青盘扣",
+    "cat_outfit_en": "Ivory matte-satin Tang-style mini jacket, open front, navy piping, one navy frog button at the shoulder",
+    "her_outfit": "藏青亚光缎面新中式短袄袖口，象牙白滚边，袖口盘扣和一朵白梅刺绣",
+    "her_outfit_en": "Navy matte-satin new-Chinese jacket cuff, ivory piping, frog button and one white plum embroidery at the cuff",
+    "scenes": [
+      "S2E3 期末周 / Finals week",
+      "初雪 / 新年 / 生日宴 / 送礼（适合喜庆场景）"
+    ],
+    "prompt_cat": "Miao Sando, a cream-silver British Shorthair tomcat, round face, dense plush short fur, pink nose, a clean pure cream-white forehead and face with NO tabby stripes or markings at all (match the master reference exactly), BLUE eyes (not amber, not yellow, not green), deadpan expression, no smile, no grin, no tongue out, ears fully visible and uncovered, no hat, no hood, legs and tail free, wearing his signature navy silk-brocade collar with gold-thread floral embroidery, a small gold padlock pendant, a white plum-blossom charm at the center, and a small navy silk-brocade pouch with white plum embroidery, gold drawstring and tassel hanging clearly at the chest, fully visible. He wears an ivory matte-satin mini Tang-style jacket that covers only his back and the sides of his chest, open at the front center so the collar and pouch are fully visible, with navy piping along the edges and one navy fabric frog button at the shoulder. Clean simple design, no text, no logo, no hat.",
+    "prompt_her": "Only part of a young woman is visible: her hand, wrist and sleeve (and torso if needed) — no face, no head, nothing above the collarbone in frame. Modest, fully covered arms and neckline. No readable text or logos anywhere. Her visible sleeve is a navy matte-satin new-Chinese short jacket with a stand collar, ivory piping, a single row of navy frog buttons at the placket and one frog button at the cuff, and one small white plum-blossom embroidered at the cuff. Slim hand with natural short nails resting beside the cat.",
+    "image": "/workspace/miaosando/s2_e3_finals/looks/sibling_swap_v1.png"
+  },
+  {
+    "id": "20261126-varsity-stripe-knit",
+    "date": "2026-11-26",
+    "name_cn": "学院条纹针织",
+    "name_en": "Varsity Stripe Knit",
+    "cat_outfit": "奶油色粗针织小背心，深开口，下摆和袖口一圈藏青加金线双条纹",
+    "cat_outfit_en": "Cream chunky-knit sweater vest, deep open front, navy + thin-gold double stripe at hem and armholes",
+    "her_outfit": "燕麦色粗针织高领毛衣，罗纹袖口同样的藏青加金线双条纹",
+    "her_outfit_en": "Oatmeal chunky-knit turtleneck, ribbed cuffs with the same navy + thin-gold double stripe",
+    "scenes": [
+      "圣诞树番外 / Christmas tree special",
+      "期末周、图书馆、雨天窝家、下雪天看书"
+    ],
+    "prompt_cat": "Miao Sando, a cream-silver British Shorthair tomcat, round face, dense plush short fur, pink nose, a clean pure cream-white forehead and face with NO tabby stripes or markings at all (match the master reference exactly), BLUE eyes (not amber, not yellow, not green), deadpan expression, no smile, no grin, no tongue out, ears fully visible and uncovered, no hat, no hood, legs and tail free, wearing his signature navy silk-brocade collar with gold-thread floral embroidery, a small gold padlock pendant, a white plum-blossom charm at the center, and a small navy silk-brocade pouch with white plum embroidery, gold drawstring and tassel hanging clearly at the chest, fully visible. He wears a cream chunky-knit sweater vest that covers only his back and the sides of his chest, with a deep open front so the collar and pouch are fully visible, finished with a double navy stripe around the hem and armholes, one of the stripes in thin gold thread. Simple clean knit, no text, no logo, no hat.",
+    "prompt_her": "Only part of a young woman is visible: her hand, wrist and sleeve (and torso if needed) — no face, no head, nothing above the collarbone in frame. Modest, fully covered arms and neckline. No readable text or logos anywhere. Her visible sleeve is an oatmeal-cream chunky-knit turtleneck with ribbed cuffs finished by the same double navy stripe, one stripe in thin gold thread. Her hand rests on an open textbook.",
+    "image": "/workspace/miaosando/s2_x2_tree/stills/S6.png"
+  }
+]
