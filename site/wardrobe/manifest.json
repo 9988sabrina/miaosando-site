@@ -32,22 +32,5 @@
     "prompt_cat": "Miao Sando, a cream-silver British Shorthair tomcat, round face, dense plush short fur, pink nose, a clean pure cream-white forehead and face with NO tabby stripes or markings at all (match the master reference exactly), BLUE eyes (not amber, not yellow, not green), deadpan expression, no smile, no grin, no tongue out, ears fully visible and uncovered, no hat, no hood, legs and tail free, wearing his signature navy silk-brocade collar with gold-thread floral embroidery, a small gold padlock pendant, a white plum-blossom charm at the center, and a small navy silk-brocade pouch with white plum embroidery, gold drawstring and tassel hanging clearly at the chest, fully visible. He wears a cream chunky-knit sweater vest that covers only his back and the sides of his chest, with a deep open front so the collar and pouch are fully visible, finished with a double navy stripe around the hem and armholes, one of the stripes in thin gold thread. Simple clean knit, no text, no logo, no hat.",
     "prompt_her": "Only part of a young woman is visible: her hand, wrist and sleeve (and torso if needed) — no face, no head, nothing above the collarbone in frame. Modest, fully covered arms and neckline. No readable text or logos anywhere. Her visible sleeve is an oatmeal-cream chunky-knit turtleneck with ribbed cuffs finished by the same double navy stripe, one stripe in thin gold thread. Her hand rests on an open textbook.",
     "image": "/workspace/miaosando/s2_x2_tree/stills/S6.png"
-  },
-  {
-    "id": "20261127-indigo-plum-denim",
-    "date": "2026-11-27",
-    "name_cn": "绣梅牛仔",
-    "name_en": "Indigo Plum Denim",
-    "cat_outfit": "靛蓝牛仔小夹克，前襟敞开，背上绣一朵大白梅，金色小纽扣",
-    "cat_outfit_en": "Tiny indigo-denim jacket, open front, one large white plum-blossom embroidered on the back, small gold buttons",
-    "her_outfit": "靛蓝牛仔夹克袖口，奶油色针织内袖，金色袖扣，袖口一朵白梅刺绣",
-    "her_outfit_en": "Indigo-denim jacket sleeve over a cream knit cuff, gold cuff button, one white plum-blossom embroidered at the cuff",
-    "scenes": [
-      "咖啡馆窗边 / cafe window",
-      "日常出街、午后咖啡、拍照"
-    ],
-    "prompt_cat": "Miao Sando, a cream-silver British Shorthair tomcat, round face, dense plush short fur, pink nose, a clean pure cream-white forehead and face with NO tabby stripes or markings at all (match the master reference exactly), BLUE eyes (not amber, not yellow, not green), deadpan expression, no smile, no grin, no tongue out, ears fully visible and uncovered, no hat, no hood, legs and tail free, wearing his signature navy silk-brocade collar with gold-thread floral embroidery, a small gold padlock pendant, a white plum-blossom charm at the center, and a small navy silk-brocade pouch with white plum embroidery, gold drawstring and tassel hanging clearly at the chest, fully visible. He wears a tiny indigo-denim jacket cut to his back and shoulders only, open at the front so the collar and pouch are fully visible, small gold buttons, and one single large white plum-blossom embroidered on the back. Simple clean denim, no text, no logo, no hat. The cat has exactly four legs, all paws resting naturally on the surface, no raised paw, no extra limbs, paws are normal cat paws (not gripping like human hands).",
-    "prompt_her": "Only part of a young woman is visible: her hand, wrist and sleeve — no face, no head, no hair, nothing above the wrist in frame. Modest, fully covered. No readable text or logos anywhere. Her visible sleeve is an indigo-denim jacket over a cream knit cuff, gold cuff button, and one white plum-blossom embroidered at the denim cuff. Her hand rests gently beside the cat, anatomically correct with exactly five fingers, natural and undistorted.",
-    "image": "/workspace/miaosando/wardrobe_sibling/images/20261127-indigo-plum-denim.jpg"
   }
 ]
